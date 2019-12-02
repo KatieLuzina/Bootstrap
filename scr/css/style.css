@@ -157,6 +157,11 @@ nav {
   margin: 0 auto;
 }
 
+.label_black {
+  background-color: white;
+  color: black;
+}
+
 .title {
   margin-bottom: 0;
   margin-top: 38px;
@@ -167,12 +172,20 @@ nav {
   text-transform: uppercase;
 }
 
+.title_black {
+  color: white;
+}
+
 .subtitle {
   font-size: 17px;
   font-weight: 400;
   text-align: center;
   color: #222222;
   margin-top: 19px;
+}
+
+.subtitle_black {
+  color: white;
 }
 
 .reasons {
@@ -192,7 +205,7 @@ nav {
   margin-top: 35px;
 }
 
-.reasons .reason_block .reasons_round {
+.reasons .reasons_round {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,18 +222,18 @@ nav {
   margin-right: 26px;
 }
 
-.reasons .reason_block .reason_textblock {
+.reasons .reason_textblock {
   width: 343px;
 }
 
-.reasons .reason_block .reason_textblock .reason_header {
+.reasons .reason_header {
   font-size: 17px;
   font-weight: 400;
   color: #1eacc7;
   line-height: 21px;
 }
 
-.reasons .reason_block .reason_textblock .reason_text {
+.reasons .reason_text {
   font-size: 15px;
   font-weight: 300;
   color: #202020;
@@ -301,5 +314,46 @@ nav {
   border-radius: 100%;
   padding: 6px;
   cursor: pointer;
+}
+
+.car_black {
+  width: 100%;
+  height: 499px;
+  background-color: #070716;
+  position: relative;
+  padding-top: 56px;
+}
+
+.car_black img {
+  display: block;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: 2;
+  margin-top: 56px;
+  height: 480px;
+  width: 759px;
+}
+
+.car_white {
+  z-index: 1;
+  background: url("../img/bg/car_low_bg.jpg") center center/cover no-repeat;
+  width: 100%;
+  height: 397px;
+  position: relative;
+}
+
+.car_white_text {
+  display: block;
+  position: absolute;
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+  color: #222222;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  margin-top: 217px;
 }
 /*# sourceMappingURL=style.css.map */
